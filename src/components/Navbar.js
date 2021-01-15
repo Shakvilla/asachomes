@@ -6,11 +6,11 @@ import { Button } from './Button'
 import { FaAlignRight } from "react-icons/fa";
 import { FcHome } from "react-icons/fc";
 
-function Navbar() {
+function Navbar({ toggle }) {
     return (
         <Nav>
             <Logo to="/"> <LogoIcon /> AsacHomez</Logo>
-            <NavMenuBars />
+            <NavMenuBars onClick={toggle} />
             <NavMenu>
                 {
                     NavMenuData.map((item, i) => (
