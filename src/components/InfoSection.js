@@ -1,10 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Button } from './Button'
 
 
 const Section = styled.div``
 const Container = styled.div``
 const ColumnLeft = styled.div``
+const ColumnRight = styled.div``
 
 
 function InfoSection() {
@@ -22,9 +24,10 @@ function InfoSection() {
                         <p>Paragraph</p>
                         <p>Paragraph</p>
                         <p>Paragraph</p>
+                        <Button to='/home'>label</Button>
 
-                        <p></p>
                     </ColumnLeft>
+                    <ColumnRight></ColumnRight>
                 </Container>
             </Section>
         </div>
