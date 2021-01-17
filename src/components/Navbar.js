@@ -27,7 +27,7 @@ function Navbar({ toggle }) {
 
 
     return (
-        <Nav navbar={navbar ? 'navbar active' : 'navbar'}>
+        <Nav>
             <Logo to="/"> <LogoIcon /> AsacHomez</Logo>
             <NavMenuBars onClick={toggle} />
             <NavMenu>
