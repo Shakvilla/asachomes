@@ -26,6 +26,9 @@ function App() {
       <Hero slides={SliderData} />
       <InfoSection {...InfoData} />
 
+
+
+
     </>
 
   );

@@ -19,6 +19,14 @@ grid-template-rows: 600px;
 
     grid-template-columns: 1fr;
 
+
+}
+@media  screen and (max-width: 668px){
+
+    grid-template-rows: 700px;
+
+
+
 }
 `
 const ColumnLeft = styled.div`

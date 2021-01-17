@@ -38,7 +38,10 @@ justify-content: space-between;
 padding: 1rem 2rem;
 z-index: 100;
 position: fixed;
-width: 100%
+width: 100%;
+background-color: #E65922;
+
+
 
 `
 const LogoIcon = styled(FcHome)`
@@ -83,6 +86,10 @@ const NavLink = css`
  height: 100%;
  cursor: pointer;
  text-decoration: none;
+
+  &:hover{
+     transform: translateY(-2px)
+ }
 
 
 `
