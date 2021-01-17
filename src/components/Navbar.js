@@ -6,9 +6,28 @@ import { Button } from './Button'
 import { FaAlignRight } from "react-icons/fa";
 import { FcHome } from "react-icons/fc";
 
+
+
+
+
 function Navbar({ toggle }) {
+
+    // const [navbar, setNavbar] = useState(false);
+
+    // const backgroundChanger = () => {
+    //     if (window.screenY >= 60) {
+    //         setNavbar(true)
+    //     } else {
+    //         setNavbar(false);
+    //     }
+
+    // }
+
+    // window.addEventListener('scroll', backgroundChanger);
+
+
     return (
-        <Nav>
+        <Nav navbar={navbar ? 'navbar active' : 'navbar'}>
             <Logo to="/"> <LogoIcon /> AsacHomez</Logo>
             <NavMenuBars onClick={toggle} />
             <NavMenu>
@@ -39,9 +58,11 @@ padding: 1rem 2rem;
 z-index: 100;
 position: fixed;
 width: 100%;
-background-color: #E65922;
+/* background-color: #E65922; */
 
 
+    background-color: #E65922;
+    
 
 `
 const LogoIcon = styled(FcHome)`
