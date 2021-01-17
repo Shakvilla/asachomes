@@ -22,6 +22,6 @@ export const infoDataTwo = {
     buttonLabel: 'view Homes',
 
     image: ImageTwo,
-    reverse: false,
+    reverse: true,
     delay: 100
 }
